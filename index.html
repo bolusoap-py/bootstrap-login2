@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row form">
+            <h1 class="heading">
+                Welcome
+            </h1>
+            <form class="needs-validation">
+                <div class="form-group was-validated mb-4">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <div class="invalid-feedback">
+                        Please enter your email address
+                    </div>
+
+                </div>
+                <div class="form-group was-validated mb-4">Password</label>
+                    <input type="password" class="form-control" id="pwd" required>
+                    <div class="invalid-feedback">
+                        Please enter your password
+                    </div>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="check-box">
+                        <input type="checkbox" class="check-box" id="check"> Remeber me
+                    </label>
+                </div>
+                <button type="button" class="btn btn-success w-100">Sign in</button>
+            </form>
+        </div>
+    </div>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
